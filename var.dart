@@ -10,7 +10,4 @@ import 'dart:svg';
 
 // print(myMap['nome']);
 
-Map<String, List> myMap = {
-  'faceless': ['The mark of time', 'Agility'],
-  'kael': ['Knowledge is power', 'Inteligence'],
-};
+void main() {}
