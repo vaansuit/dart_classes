@@ -5,8 +5,7 @@ import 'package:image/image.dart' as img;
 void main() async {
   final bytes = await File('./bin/flag.png').readAsBytes();
   final image = img.decodeImage(bytes)!;
-  var asciiImage =
-      art.convertImage(image, maxWidth: 120, maxHeight: 120, invert: true);
+  var asciiImage = art.convertImage(image, maxHeight: 100, invert: false);
   print('');
   print(asciiImage);
 }
