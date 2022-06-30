@@ -8,6 +8,7 @@ void main() {
     'numero': 1,
     'code': 123,
   };
+  List<String> my2List = ['Huahuaha'];
 
   print(num);
   print(number);
@@ -15,4 +16,10 @@ void main() {
   print(myList);
   print(mySet);
   print(myMap);
+
+  myList.shuffle();
+  myList.add('value');
+  myList.addAll(my2List);
+  myList.removeAt(0);
+  my2List.remove('One');
 }
